@@ -55,7 +55,7 @@ cursor:pointer;background-color:#000;-webkit-border-top-right-radius: 2px;-webki
 #main_slider_outer { float:left; width:100%; margin-top:30px; margin-bottom:20px;}
 #main_slider_outer .slider_inner{ margin:0 auto;width:70%;}
 #main_slider_outer .slider_inner .slider_left{ float:left; width:62.8%; margin-right:3.2%;}
-#main_slider_outer .slider_inner .slider_left img{ width:100%;}
+#main_slider_outer .slider_inner .slider_left img{ width:100%; z-index:-1px; }
 #main_slider_outer .slider_inner .slider_right{ float:left; width:34%; }
 #main_slider_outer .slider_inner .slider_right .product_outer{ float:left; width:100%; min-height:180px; }
 #main_slider_outer .slider_inner .slider_right .bottom_border{ float:left; width:100%; border-bottom:1px solid #e5e5e5; margin-bottom:10px; }
@@ -86,4 +86,28 @@ border-radius: 3px; padding:12px;  color:#686867; font-size:16px; margin-bottom:
 .product_list li div img{ width:100%;  -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; }
 .product_list li span{ float:left; width:80%; margin-bottom:26px; font-size:16px; text-align:left; font-family: 'Conv_avenir'; font-weight:normal; }
 .product_list li span p{ float:left; text-align:right; font-size:18px; }
+.shop_all_text{ float:right; font-family: 'Conv_avenir'; font-size:18px; text-transform:uppercase; width:100%; color:#000; font-weight:bold; 
+text-align:right; margin-top:16px; margin-bottom:50px; }
+.shop_all_text a{ text-decoration:none; color:#000; }
+
 /*Main Mid Section*/
+
+/*Mail Sign Up Section*/
+#mail_signup_outer { float:left; width:100%; background:#ebebeb; margin-bottom:50px; }
+#mail_signup_outer .signup_inner{ margin:0 auto; width:70%; padding-top:50px; }
+#mail_signup_outer .signup_inner .signup_head_text{ float:left; width:100%;  font-family: 'Conv_ag_Italic'; font-size:37px; color:#000;
+ font-weight:normal; margin-bottom:5px; text-align:center;}
+#mail_signup_outer .signup_inner .signup_small_text{ float:left; width:100%;  font-family: 'Conv_avenir'; font-size:16px; color:#666;
+ font-weight:normal; margin-bottom:10px; text-align:center;}
+#text_area_outer{ float:left; width:65%; text-align:center; padding-left:35%; margin-bottom:6%;} 
+#mail_sign_up { float:left; display: inline-block;  position: relative; width:45%;}
+#mail_sign_up input { float:right;width:95%;height:32px;	padding:0px 5px;border:none;-webkit-border-top-left-radius:2px;  background:#ffffff;
+webkit-border-bottom-left-radius: 2px;-moz-border-radius-topleft: 2px;-moz-border-radius-bottomleft: 2px;border-top-left-radius: 2px;border-bottom-left-radius:2px;
+ font-family:'Conv_avenir',Sans-Serif; }
+#mail_sign_up .button-search { float:left; background:url(../images/mail_icon.png) no-repeat;height:32px;	width:32px;	position:absolute;right:-2px; top:0px;
+cursor:pointer;background-color:#000;-webkit-border-top-right-radius: 2px;-webkit-border-bottom-right-radius: 2px;-moz-border-radius-topright: 2px;
+-moz-border-radius-bottomright: 2px;border-top-right-radius: 2px;border-bottom-right-radius: 2px;}  
+
+
+
+/*Mail Sign Up Section End*/
