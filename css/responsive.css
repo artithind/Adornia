@@ -2,8 +2,15 @@
 /* 1864 screens start */
 @media only screen and (min-width : 1864px)
 {
+.product_list li{  width:22%; margin-right:20px;  }
+#top_head {  min-height: 140px;}
+.nbs-flexisel-item img { width: 280px;  height: 280px;}
+.nbs-flexisel-item img:hover{width: 280px;  height: 280px;}
+.nbs-flexisel-item p {  font-size: 16px; line-height: 20px;}
 }
 /* 1864 screens end  */
+
+
 /* 800*600 screens start  */
 @media only screen and (min-width : 1024px) and (max-width : 1024px)
 {
@@ -23,7 +30,11 @@
 .product_list li { font-size: 14px;}
 .larg_text { font-size: 30px;}
 .red_text { font-size: 14px;}
+.product_list li span { margin-bottom: 4px;}
+.product_list li {  margin-right: 14px; width: 20%;}
 /* 768*1024 screens start  */
+}
+
 @media only screen and (min-width : 768px) and (max-width : 1023px)
 {
 #search {width: 41%;}	
@@ -35,9 +46,6 @@
 #text_area_outer {padding-left: 27%; width: 100%;}
 .nbs-flexisel-item {margin-left: 93px; margin-right: -28px; width: 66%;}
 .nbs-flexisel-ul { margin: 0 0 0 128px;}
-
-
-
 }
 
 /* 768*1024 screens end  */
@@ -82,7 +90,7 @@
 /* 480*320 screens start  */
 @media only screen and (min-width : 480px) and (max-width : 599px)
 {
-	#search {width: 83%; margin-bottom:12px; margin-top:4px; float:left;}	
+#search {width: 83%; margin-bottom:12px; margin-top:4px; float:left;}	
 #main_slider_outer .slider_inner .slider_right .product_outer .head_text{ font-size:13px;}
 #main_slider_outer .slider_inner .slider_right .product_outer .head_text_red { font-size: 10px;}
 .larg_text { font-size: 29px;}
@@ -96,12 +104,15 @@ border-radius: 5px; margin-top:-9px;}
 .shop_all_text { margin-right: 227px; width: 81%;}
 #text_area_outer {padding-left: 27%; width: 100%;}
 .nbs-flexisel-item {margin-left: 93px; margin-right: -28px; width: 66%;}
-.nbs-flexisel-ul { margin: 0 0 0 84px;}	
+.nbs-flexisel-ul { margin: 0 0 0 230px;}	
 .gallery_inner {text-align: center;}
 #top_section {font-size: 9px; min-height: 24px;padding-top: 5px;}
 #top_head .head_inner .logo_outer { margin-left: 36px;}
 #top_head { min-height: 137px;}
 #top_head .head_inner .menu_outer .head_nav { margin: 5px 0 0 31px;}
+.nbs-flexisel-nav-left { left: 15px; margin-top: 69px;}
+.nbs-flexisel-nav-right { margin-top: 69px; right: 15px;}
+
 }
 /* 480*320 screens start  */
 /* 380*685 android galaxy screens start  */
@@ -112,6 +123,38 @@ border-radius: 5px; margin-top:-9px;}
 /* 320*480 screens start  */
 @media only screen and (min-width : 320px) and (max-width : 479px)
 {
+
+#top_section { font-size: 10px; min-height: 33px;}
+#top_section .top_inner {width: 93%;}
+#top_head .head_inner .logo_outer { margin-left: -22px; margin-top: 5%;}
+#top_head .head_inner .menu_outer .head_nav { margin: 0 0 0 -23px; width: 499px;}
+#top_head {min-height: 139px; }
+#main_slider_outer .slider_inner .slider_right .product_outer {min-height: 72px;}
+.red_text { font-size: 9px;}
+.larg_text { font-size: 20px;}
+#mail_signup_outer .signup_inner .signup_small_text { font-size: 10px;}
+#mail_sign_up { width: 88%;}  
+.nbs-flexisel-nav-right { right: -36px;}
+
+#mail_signup_outer .signup_inner { padding-top: 17px; }
+#mail_signup_outer .signup_inner .signup_head_text { font-size: 23px;}
+	
+#search {margin-bottom: 14px; margin-top: 10px;width: 127%;}	
+#main_slider_outer .slider_inner .slider_right .product_outer .head_text{ font-size:9px;}
+#main_slider_outer .slider_inner .slider_right .product_outer .head_text_red { font-size: 7px;}	
+#main_slider_outer .slider_inner .slider_right .product_outer .black_button { font-size: 5px; margin-top: -10px;}
+#main_slider_outer .slider_inner .slider_right .product_outer .img_outer img { width: 81%;}
+.shop_all_text {margin-right: -11px;  width: 100%; font-size:16px;}
+#text_area_outer {padding-left: 4%; width: 100%;}
+.nbs-flexisel-item {margin-left: 93px; margin-right: -28px; width: 66%;}
+.nbs-flexisel-ul { margin: 0 0 0 128px;}
+.footer_nav li {font-size: 9px;}
+.footer_first_block { min-height: 98px; width: 100%;}
+.footer_address { font-size: 12px;}
+.footer_mix_block { min-height: 100%; width: 10%;}
+.footer_nav li { display: inline;  float: left; font-size: 8px; line-height: 20px;  width: auto; margin-right:5px;}
+.footer_mix_block1{color:#FFF;float:left;width:100%;  min-height:220px;}
+
 }
 /* 320*480 screens start  */
 

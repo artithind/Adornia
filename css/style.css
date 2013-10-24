@@ -33,7 +33,7 @@ body{margin:0px; padding:0px; background:#fff; color:#fff; font-size:12px; font-
 /*top bar section end*/
 
 /*Top Head Section */
-#top_head{ float:left; box-shadow: 0 2px 4px #C2C2C2;  width: 100%; min-height:16%;}
+#top_head{ float:left; box-shadow: 0 2px 4px #C2C2C2;  width: 100%; min-height:105px;}
 #top_head .head_inner{ margin:0 auto;width:70%;}
 #top_head .head_inner .logo_outer{ float:left; width:261px; height:49px; margin-top:2%;}
 #search {float:right; margin-top:5%; display: inline-block; margin-right: 2px; position: relative; width:25%;}
@@ -205,6 +205,18 @@ clear:both;
 
 /*Footer Section*/
 #footer_outer { float:left; width:100%; background:#292929; }
-#footer_outer .footer_inner{ margin:0 auto; width:70%; min-height:200px;  }
+#footer_outer .footer_inner{ margin:0 auto; width:70%; padding-top:4%;    }
+.footer_first_block{color:#FFF;float:left;width:25%; min-height:220px;}
+.footer_mix_block1{color:#FFF;float:left;width:15%;  min-height:220px;}
+.footer_mix_block{color:#FFF;float:left;width:20%;  min-height:220px;}
+.footer_nav{ margin:0; padding:0; font-family: 'Conv_avenir'; }
+.footer_nav li{ float:left; display:block; font-size:1.2em; color:#fff; width:100%; list-style:none; line-height:26px; text-transform:uppercase;   }
+.footer_nav li a{ text-decoration:none; color:#fff; }
+.footer_nav li a.active, .footer_nav li a:hover{ color:#ccc;}
+.footer_nav li span{ float:left; width:31px; height:31px; margin-right:10px; margin-bottom:15px; }
+.footer_logo{float:left; width:100%;}
+.footer_logo img{float:left; width:100%;}
+.footer_address{ float:left; width:100%; line-height:20px; font-size:14px; color:#fff; margin-top:10px; font-family: 'Conv_avenir'; }
+
 
 /*Footer Section End*/
